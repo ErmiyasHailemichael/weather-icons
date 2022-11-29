@@ -2,13 +2,15 @@ import React from "react";
 
 const Conditions = (props) => {
   return (
-    <div className="Weather">
+    <div className="weather">
       <img src={props.img} alt="..." />
       <p>
-        <span>Conditions: </span> {props.conditions }
+        <span>conditions:</span> 
+        {props.conditions}
       </p>
       <p>
-        <span>time: </span> {props.time}
+        <span>time:</span>
+        {props.time}
       </p>
     </div>
   );
